@@ -17,7 +17,6 @@ const Exercises = ({ exercises, setExercises, bodyPart }) => {
     indexOfFirstExercise,
     indexOfLastExercise
   );
-
   const paginate = (e, value) => {
     setCurrentPage(value);
 
