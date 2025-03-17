@@ -1,5 +1,9 @@
 {
   "homepage": "https://Lemonclff.github.io/gym_web",
+  "scripts"：{
+  "predeploy"："npm run build",
+  "deploy"："gh-pages -d build"
+  }
   "name": "gym-web",
   "version": "0.1.0",
   "private": true,
